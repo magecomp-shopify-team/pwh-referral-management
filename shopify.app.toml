@@ -1,0 +1,19 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "fda200b213fe3c9cf66f1fb56e01f1c1"
+name = "PWH-Referral-Management"
+application_url = "https://referral.hummingbirdinnovations.io"
+embedded = true
+handle = "pwh-referral-management"
+
+[webhooks]
+api_version = "2025-10"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_content,read_customers,read_discounts,read_fulfillments,read_online_store_pages,read_orders,read_products,write_customers,write_discounts,write_orders,write_products"
+optional_scopes = [ ]
+use_legacy_install_flow = false
+
+[auth]
+redirect_urls = [ "https://referral.hummingbirdinnovations.io/authenticate" ]
