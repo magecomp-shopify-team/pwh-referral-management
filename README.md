@@ -68,5 +68,5 @@ npm run devs
 
 ## Test the app.
 
-## Important Note 
+## Important Note:
 1.This app uses shopify's discount function, and the function managed by the another app whch is QUO Volume Discount app.
