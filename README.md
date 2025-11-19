@@ -48,7 +48,7 @@ php artisan migrate
 ## Start Laravel server:
 php artisan serve
 
-## Start cludeflared
+## Start cloudeflared
 cloudflared tunnel --url="http://127.0.0.1:8000"
 
 ## Add the HTTPS Url in .toml file and deploy:
@@ -68,5 +68,5 @@ npm run devs
 
 ## Test the app.
 
-============ Important Note ==============
+## Important Note:
 1.This app uses shopify's discount function, and the function managed by the another app whch is QUO Volume Discount app.
